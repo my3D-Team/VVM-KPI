@@ -1,0 +1,40 @@
+.flex {
+    background: #9fc6ff;
+}
+.flex-container {
+    display: flex;
+}
+.flex-item {
+    padding: 5px;
+    margin: 5px;
+    background: #3d8cff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    flex:1 0 10%;
+    border: 1px solid white;
+}
+.team {
+    display: flex;
+}
+.members {
+    flex-direction: column;
+}
+
+.sla {
+    background: #ff9310;
+}
+.ssla {
+    background: #72ff56;
+}
+.nsla {
+    background: #ff4c4f;
+}
+.nnsla {
+    background: #2c32ff;
+}
+.header {
+    background: #2c32ff;
+}
