@@ -23,6 +23,7 @@
         "lodash": "^3.10.0"
     },
     "devDependencies": {
+        "amcharts": "^3.14.5",
         "envify": "^3.0.0",
         "reactify": "^1.1.1",
         "uglify-js": "~2.4.15",

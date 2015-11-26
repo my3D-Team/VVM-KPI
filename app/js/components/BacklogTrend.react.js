@@ -4,6 +4,7 @@
 "use strict";
 
 var React = require('react');
+//var AmCharts = require('amcharts');
 var KpiAction = require('../actions/KpiAction');
 var kpiStore = require('../stores/KpiStore');
 
@@ -15,7 +16,7 @@ function initChart(id, data) {
         dataProvider: data,
         categoryField: "date",
        // depth3D: 20,
-        angle: 30,
+        angle: 10,
 
         "startDuration": 1,
 
@@ -49,30 +50,42 @@ function initChart(id, data) {
             autoGridCount: true
         }],
 
-        graphs: [{
+        graphs: [
+            {
             balloonText: "[[title]] of [[category]]:[[value]]",
             valueField: "open",
             bullet: "round",
+            lineThickness: 3,
+            bulletSize: 10,
+            bulletBorderAlpha: 1,
+            bulletColor: "#FFFFFF",
+            useLineColorForBulletBorder: true,
+            bulletBorderThickness: 3,
             lineAlpha: 1,
             valueAxis: "right",
             title: "open",
-            lineColor: "#AEEEEE",
+            lineColor: "#3949AB",
             showHandOnHover: true
         },{
             balloonText: "[[title]] of [[category]]:[[value]]",
             valueField: "close",
             bullet: "round",
+            lineThickness: 3,
+            bulletSize: 10,
+            bulletBorderAlpha: 1,
+            bulletColor: "#FFFFFF",
+            useLineColorForBulletBorder: true,
+            bulletBorderThickness: 3,
             lineAlpha: 1,
             title: "close",
-            type: "smoothedLine",
             valueAxis: "right",
-            lineColor: "#FFFFFE",
+            lineColor: "#DA245A",
             showHandOnHover: true
         },{
             balloonText: "[[title]] of [[category]]:[[value]]",
             valueField: "P1",
             type: "column",
-            lineColor: "#AEF28E",
+            lineColor: "#7CB342",
             lineAlpha: 0,
             fillAlphas: 1,
             title: "P1",
@@ -80,7 +93,7 @@ function initChart(id, data) {
         },{
             balloonText: "[[title]] of [[category]]:[[value]]",
             valueField: "P2",
-            lineColor: "#AEF15F",
+            lineColor: "#546E7A",
             type: "column",
             lineAlpha: 0,
             fillAlphas: 1,
@@ -89,7 +102,7 @@ function initChart(id, data) {
         },{
             balloonText: "[[title]] of [[category]]:[[value]]",
             valueField: "P3",
-            lineColor: "#5cd16b",
+            lineColor: "#039BE5",
             type: "column",
             lineAlpha: 0,
             fillAlphas: 1,
@@ -98,7 +111,7 @@ function initChart(id, data) {
         },{
             balloonText: "[[title]] of [[category]]:[[value]]",
             valueField: "P4",
-            lineColor: "#EEF10E",
+            lineColor: "#FFB300",
             type: "column",
             lineAlpha: 0,
             fillAlphas: 1,
@@ -121,77 +134,87 @@ function initChart(id, data) {
 var backlogTrend = React.createClass({
     getInitialState: function () {
         return {
-            data: [{
-                "date": "01-10",
-                "P1": 10,
-                "P2": 20,
-                "P3": 10,
-                "P4": 5,
-                "open": 15,
-                "close": 10
-            }, {
-                "date": "02-10",
-                "P1": 19,
-                "P2": 1,
-                "P3": 2,
-                "P4": 3,
-                "open": 7,
-                "close": 11
-            }, {
-                "date": "03-10",
-                "P1": 11,
-                "P2": 19,
-                "P3": 4,
-                "P4": 2,
-                "open": 9,
-                "close": 14
-            }, {
-                "date": "04-10",
-                "P1": 11,
-                "P2": 10,
-                "P3": 14,
-                "P4": 2,
-                "open": 8,
-                "close": 5
-            }, {
-                "date": "05-10",
-                "P1": 8,
-                "P2": 0,
-                "P3": 4,
-                "P4": 2,
-                "open": 20,
-                "close": 5
-            }, {
-                "date": "06-10",
-                "P1": 13,
-                "P2": 7,
-                "P3": 4,
-                "P4": 2,
-                "open": 18,
-                "close": 15
-            }, {
-                "date": "07-10",
-                "P1": 1,
-                "P2": 5,
-                "P3": 14,
-                "P4": 2,
-                "open": 10,
-                "close": 10
-            }, {
-                "date": "08-10",
-                "P1": 7,
-                "P2": 1,
-                "P3": 4,
-                "P4": 2,
-                "open": 5,
-                "close": 10
-            }
-            ],
-            dataTwo: [
+            data: [
             {
                 "date": "01-02",
+                "opened": 2,
+                "closed": 13,
+                "splits": [
+                    {
+                        "name": "P1",
+                        "value": 10
+                    },{
+                        "name": "P2",
+                        "value": 41
+                    },{
+                        "name": "P3",
+                        "value": 7
+                    },{
+                        "name": "P4",
+                        "value": 15
+                    }
+                ]
+            },{
+                "date": "03-02",
+                "opened": 12,
+                "closed": 1,
+                "splits": [
+                    {
+                        "name": "P1",
+                        "value": 2
+                    },{
+                        "name": "P2",
+                        "value": 14
+                    },{
+                        "name": "P3",
+                        "value": 7
+                    },{
+                        "name": "P4",
+                        "value": 5
+                    }
+                ]
+            },{
+                "date": "04-02",
+                "opened": 7,
+                "closed": 5,
+                "splits": [
+                    {
+                        "name": "P1",
+                        "value": 2
+                    },{
+                        "name": "P2",
+                        "value": 14
+                    },{
+                        "name": "P3",
+                        "value": 7
+                    },{
+                        "name": "P4",
+                        "value": 5
+                    }
+                ]
+            },{
+                "date": "05-02",
+                "opened": 2,
+                "closed": 5,
+                "splits": [
+                    {
+                        "name": "P1",
+                        "value": 2
+                    },{
+                        "name": "P2",
+                        "value": 14
+                    },{
+                        "name": "P3",
+                        "value": 7
+                    },{
+                        "name": "P4",
+                        "value": 5
+                    }
+                ]
+            },{
+                "date": "06-02",
                 "opened": 20,
-                "closed": 30,
+                "closed": 14,
                 "splits": [
                     {
                         "name": "P1",
@@ -208,9 +231,28 @@ var backlogTrend = React.createClass({
                     }
                 ]
             },{
-                "date": "01-02",
-                "opened": 20,
+                "date": "07-02",
+                "opened": 25,
                 "closed": 30,
+                "splits": [
+                    {
+                        "name": "P1",
+                        "value": 20
+                    },{
+                        "name": "P2",
+                        "value": 34
+                    },{
+                        "name": "P3",
+                        "value": 47
+                    },{
+                        "name": "P4",
+                        "value": 15
+                    }
+                ]
+            },{
+                "date": "08-02",
+                "opened": 20,
+                "closed": 13,
                 "splits": [
                     {
                         "name": "P1",
@@ -227,9 +269,9 @@ var backlogTrend = React.createClass({
                     }
                 ]
             },{
-                "date": "01-02",
+                "date": "09-02",
                 "opened": 20,
-                "closed": 30,
+                "closed": 15,
                 "splits": [
                     {
                         "name": "P1",
@@ -246,9 +288,47 @@ var backlogTrend = React.createClass({
                     }
                 ]
             },{
-                "date": "01-02",
+                "date": "10-02",
+                "opened": 7,
+                "closed": 5,
+                "splits": [
+                    {
+                        "name": "P1",
+                        "value": 2
+                    },{
+                        "name": "P2",
+                        "value": 14
+                    },{
+                        "name": "P3",
+                        "value": 7
+                    },{
+                        "name": "P4",
+                        "value": 5
+                    }
+                ]
+            },{
+                "date": "11-02",
+                "opened": 2,
+                "closed": 5,
+                "splits": [
+                    {
+                        "name": "P1",
+                        "value": 2
+                    },{
+                        "name": "P2",
+                        "value": 14
+                    },{
+                        "name": "P3",
+                        "value": 7
+                    },{
+                        "name": "P4",
+                        "value": 5
+                    }
+                ]
+            },{
+                "date": "12-02",
                 "opened": 20,
-                "closed": 30,
+                "closed": 14,
                 "splits": [
                     {
                         "name": "P1",
@@ -270,7 +350,19 @@ var backlogTrend = React.createClass({
     },
 
     componentWillMount: function () {
-        initChart('chartdiv', this.state.data);
+       var data = this.state.data.map(function(item) {
+            var data = {
+                "date" : item.date,
+                "open": item.opened,
+                "close": item.closed
+            }
+
+            item.splits.map(function(split){
+                data[split.name] = split.value
+            });
+            return data;
+        });
+        initChart('chartdiv', data);
         chart.addListener("clickGraphItem", this.handleClick);
     },
     componentDidMount: function () {
@@ -288,12 +380,6 @@ var backlogTrend = React.createClass({
     onChange: function () {
         console.log(kpiStore.getSelectedPreview());
         this.parseData();
-    },
-
-    parseData: function() {
-       this.state.dataTwo.map(function(items) {
-
-        });
     },
     render: function () {
         var css = {

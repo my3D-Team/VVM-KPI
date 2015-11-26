@@ -72,6 +72,21 @@ var DrillDown = React.createClass({
                                 "value": "36"
                             }
                         ]
+                    },{ "cell": [
+                            {
+                                "value": "mohamed"
+                            },{
+                                "value": "01-10"
+                            },{
+                                "value": "12"
+                            },{
+                                "value": "12"
+                            },{
+                                "value": "14"
+                            },{
+                                "value": "36"
+                            }
+                        ]
                     }
                 ]
             }
@@ -93,15 +108,19 @@ var DrillDown = React.createClass({
             );
         });
 
-        var body = this.state.data.body.map(function(item){
+        var body = this.state.data.body.map(function(item, index){
+            var attribute = "flex-container sizeItem";
+            if (index%2 != 0) {
+                attribute = "flex-container sizeItem flex-row"
+            }
             return (
-                <div className="flex-container"> {this.parseCell(item.cell)}</div>
+                <div className={attribute}> {this.parseCell(item.cell)}</div>
             );
         }, this);
 
         return (
             <div className="flex">
-                <div className="flex-container header">{header}</div>
+                <div className="flex-container sizeSubCol">{header}</div>
                 {body}
             </div>
         );

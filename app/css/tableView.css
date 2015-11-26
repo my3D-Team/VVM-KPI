@@ -1,20 +1,14 @@
-.flex {
-    background: #9fc6ff;
-}
 .flex-container {
     display: flex;
 }
 .flex-item {
-    padding: 5px;
-    margin: 5px;
-    background: #3d8cff;
-    color: white;
+    color: darkslategray;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    flex:1 0 10%;
-    border: 1px solid white;
+    flex:1 0 0%;
+    border: 1px solid darkgray;
 }
 .team {
     display: flex;
@@ -23,18 +17,30 @@
     flex-direction: column;
 }
 
-.sla {
-    background: #ff9310;
+.column {
+    background: #E6E6E6;
 }
-.ssla {
-    background: #72ff56;
+.flex-row {
+    background: #F9F9F9;
 }
-.nsla {
-    background: #ff4c4f;
+.sizeSubCol {
+    height: 30px;
 }
-.nnsla {
-    background: #2c32ff;
+.sizeMember {
+    height: 37.2px;
+}
+.sizeItem {
+    height: 40px;
+}
+
+.Total {
+    background: #264B94;
+    color: white;
+}
+.Total2 {
+    background: #24478C;
+    color: white;
 }
 .header {
-    background: #2c32ff;
+    background: #E6E6E6;
 }
