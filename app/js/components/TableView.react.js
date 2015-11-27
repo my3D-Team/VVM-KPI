@@ -69,1229 +69,1257 @@ var TableView = React.createClass({
             "data" : {
                 "rows": [
                     {
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                }
-                    ,{
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                }
-                    ,{
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                }
-                    ,{
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                }
-                    ,{
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                },
-                    {
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                },
-                    {
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                },
-                    {
-                    "Assigned" : [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "VVM team",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                }
-                    ,{
-                    "Assigned" : [
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 20,
-                                name: "not spa"
-                            },{
-                                value: 30,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "P2",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "P3",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "Total",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "In Progress": [
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        },
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ],
-                    "Total": [
-                        {
-                            team: "Total",
-                            member: "Mohamed",
-                            subColumn: "P1",
-                            cell : [{
-                                value: 10,
-                                name: "spa"
-                            },{
-                                value: 10,
-                                name: "not spa"
-                            },{
-                                value: 10,
-                                name: "pending"
-                            }
-                            ]
-                        }
-                    ]
-                }
+                        row: [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column: 'Assigned',
+                                subColumn: "P1",
+                                cell: [{
+                                    value: 10,
+                                    name: "spa"
+                                }, {
+                                    value: 20,
+                                    name: "not spa"
+                                }, {
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row : [
+                            {
+                                team: "Total",
+                                member: "Total",
+                                column:'Assigned',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 20,
+                                    name: "not spa"
+                                },{
+                                    value: 30,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "Total",
+                                member: "Total",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "Total",
+                                member: "Total",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "Total",
+                                member: "Total",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "Total",
+                                member: "Total",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "Total",
+                                member: "Total",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "Total",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "Total",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "spa"
+                                },{
+                                    value: 10,
+                                    name: "not spa"
+                                },{
+                                    value: 10,
+                                    name: "pending"
+                                }
+                                ]
+                            }
+                        ]
+                    }
                 ]
             }
         }
@@ -1345,22 +1373,22 @@ var TableView = React.createClass({
         );
     },
 
-    showData: function(row, key, index) {
-        var items = row[key].map(function(cells){
-            var attribute = "flex-item border-item " +key;
+    showData: function(row, index) {
+        var items = row.map(function(cells){
+            var attribute = "flex-item border-item " +cells.column;
             if (index%2 != 0) {
-                attribute = "flex-item border-item " +key +"2";
+                attribute = "flex-item border-item " +cells.column +"2";
             }
             if(cells.team == "Total") {
                 attribute = " flex-item Total border-total";
             }
             return (
-                <div className={attribute}  onClick={this.handleClick.bind(this, key + " "+ cells.subColumn + " "+ cells.member)} >
+                <div className={attribute}  onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member)} >
                     <div className="flex-container">
                     {cells.cell.map(function(item){
                         var className = "flex-items "+ item.name;
                         return(
-                        <div className={className} onClick={this.handleClick.bind(this, key + " "+ cells.subColumn + " "+ cells.member + " " + item.value + " " + item.name)}></div>);
+                            <div className={className} onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member + " " + item.value + " " + item.name)}></div>);
                     },this)}
                     </div>
                 </div>
@@ -1413,18 +1441,14 @@ var TableView = React.createClass({
             return {row}
         }, this);
 
-        var data = this.state.data.rows.map(function(row, index){
+        var data = this.state.data.rows.map(function(rows, index){
             var attribute = "flex-container sizeItem";
             if (index%2 != 0) {
                 attribute = "flex-container sizeItem flex-row"
             }
             return (
                 <div className={attribute}>
-                    {this.state.tableStruct.columns.map(function(column){
-                        return (
-                            this.showData(row, column.value, index)
-                        );
-                    },this)}
+                    {this.showData(rows.row, index)}
                 </div>
             );
         }, this);
