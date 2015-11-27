@@ -60,7 +60,7 @@ var TableView = React.createClass({
                             "value": "Lyes"
                         }
                     ]
-                },{
+                }, {
                     "value": "Total",
                     "subRowsTotal": 1,
                     "subRows": []
@@ -71,6 +71,7 @@ var TableView = React.createClass({
                     {
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -84,7 +85,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -100,6 +103,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -113,7 +117,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -131,6 +137,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -146,6 +153,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -161,6 +169,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -178,6 +187,7 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -193,9 +203,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                }
+                    ,{
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -209,7 +221,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -225,6 +239,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -238,7 +253,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -256,6 +273,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -271,6 +289,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -286,6 +305,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -303,6 +323,7 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -318,9 +339,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                }
+                    ,{
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -334,7 +357,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -350,6 +375,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -363,7 +389,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -381,6 +409,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -396,6 +425,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -411,6 +441,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -428,6 +459,7 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -443,9 +475,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                }
+                    ,{
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -459,7 +493,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -475,6 +511,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -488,7 +525,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -506,6 +545,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -521,6 +561,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -536,6 +577,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -553,6 +595,7 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -568,9 +611,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                }
+                    ,{
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -584,7 +629,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -600,6 +647,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -613,7 +661,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -631,6 +681,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -646,6 +697,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -661,6 +713,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -678,6 +731,7 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -693,9 +747,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                },
+                    {
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -709,7 +765,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -725,6 +783,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -738,7 +797,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -756,6 +817,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -771,6 +833,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -786,6 +849,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -803,6 +867,7 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -818,9 +883,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                },
+                    {
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -834,7 +901,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -850,6 +919,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -863,7 +933,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -881,6 +953,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -896,6 +969,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -911,6 +985,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -928,8 +1003,9 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
-                            subColumn: "Total",
+                            subColumn: "P1",
                             cell : [{
                                 value: 10,
                                 name: "spa"
@@ -943,9 +1019,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                },
+                    {
                     "Assigned" : [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -959,7 +1037,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -975,6 +1055,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -988,7 +1069,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -1006,6 +1089,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -1021,8 +1105,9 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
-                            subColumn: "P2",
+                            subColumn: "P1",
                             cell : [{
                                 value: 10,
                                 name: "spa"
@@ -1036,8 +1121,9 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "VVM team",
                             member: "Mohamed",
-                            subColumn: "P3",
+                            subColumn: "P1",
                             cell : [{
                                 value: 10,
                                 name: "spa"
@@ -1053,8 +1139,9 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "VVM team",
                             member: "Mohamed",
-                            subColumn: "Total",
+                            subColumn: "P1",
                             cell : [{
                                 value: 10,
                                 name: "spa"
@@ -1068,9 +1155,11 @@ var TableView = React.createClass({
                             ]
                         }
                     ]
-                },{
+                }
+                    ,{
                     "Assigned" : [
                         {
+                            team: "Total",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -1084,7 +1173,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "Total",
                             member: "Mohamed",
                             subColumn: "P2",
                             cell : [{
@@ -1100,6 +1191,7 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "Total",
                             member: "Mohamed",
                             subColumn: "P3",
                             cell : [{
@@ -1113,7 +1205,9 @@ var TableView = React.createClass({
                                 name: "pending"
                             }
                             ]
-                        },{
+                        },
+                        {
+                            team: "Total",
                             member: "Mohamed",
                             subColumn: "Total",
                             cell : [{
@@ -1131,6 +1225,7 @@ var TableView = React.createClass({
                     ],
                     "In Progress": [
                         {
+                            team: "Total",
                             member: "Mohamed",
                             subColumn: "P1",
                             cell : [{
@@ -1146,8 +1241,9 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "Total",
                             member: "Mohamed",
-                            subColumn: "P2",
+                            subColumn: "P1",
                             cell : [{
                                 value: 10,
                                 name: "spa"
@@ -1161,8 +1257,9 @@ var TableView = React.createClass({
                             ]
                         },
                         {
+                            team: "Total",
                             member: "Mohamed",
-                            subColumn: "P3",
+                            subColumn: "P1",
                             cell : [{
                                 value: 10,
                                 name: "spa"
@@ -1178,8 +1275,9 @@ var TableView = React.createClass({
                     ],
                     "Total": [
                         {
+                            team: "Total",
                             member: "Mohamed",
-                            subColumn: "Toatl",
+                            subColumn: "P1",
                             cell : [{
                                 value: 10,
                                 name: "spa"
@@ -1203,12 +1301,12 @@ var TableView = React.createClass({
         var total;
         var subColumn = column.subColumns.map(function (subColumn) {
             return (
-                <div className="flex-item" onClick={this.handleClick.bind(this,column.value +" "+ subColumn.value)} >{subColumn.value}</div>
+                <div className="flex-item border" onClick={this.handleClick.bind(this,column.value +" "+ subColumn.value)} >{subColumn.value}</div>
             );
         },this);
 
         if(column.subColumnsTotal){
-            total = <div className="flex-item" onClick={this.handleClick.bind(this,column.value +" Total")}>Total</div>
+            total = <div className="flex-item border" onClick={this.handleClick.bind(this,column.value +" Total")}>Total</div>
         }
 
         return (
@@ -1223,18 +1321,18 @@ var TableView = React.createClass({
         var total;
         var attribute;
         var subRows = rows.subRows.map(function(subRow, index) {
-            attribute = "flex-item sizeMember";
+            attribute = "flex-item sizeItem";
             if (index%2 != 0) {
-                attribute = "flex-item sizeMember flex-row";
+                attribute = "flex-item sizeItem flex-row";
             }
             return (
                 <div className={attribute} onClick={this.handleClick.bind(this, rows.value + " " + subRow.value)}>{subRow.value}</div>
             );
         },this );
-        if(attribute == "flex-item sizeMember flex-row") {
-            attribute = "flex-item sizeMember";
+        if(attribute == "flex-item sizeItem flex-row") {
+            attribute = "flex-item sizeItem";
         } else {
-            attribute = "flex-item sizeMember flex-row";
+            attribute = "flex-item sizeItem flex-row";
         }
         if(rows.subRowsTotal > 0){
             total = <div className={attribute} onClick={this.handleClick.bind(this, rows.value + " Total")}>Total</div>
@@ -1249,16 +1347,20 @@ var TableView = React.createClass({
 
     showData: function(row, key, index) {
         var items = row[key].map(function(cells){
-            var attribute = "flex-item " +key;
+            var attribute = "flex-item border-item " +key;
             if (index%2 != 0) {
-                attribute = "flex-item " +key +"2";
+                attribute = "flex-item border-item " +key +"2";
+            }
+            if(cells.team == "Total") {
+                attribute = " flex-item Total border-total";
             }
             return (
                 <div className={attribute}  onClick={this.handleClick.bind(this, key + " "+ cells.subColumn + " "+ cells.member)} >
                     <div className="flex-container">
                     {cells.cell.map(function(item){
+                        var className = "flex-items "+ item.name;
                         return(
-                        <div className="flex-items" onClick={this.handleClick.bind(this, key + " "+ cells.subColumn + " "+ cells.member + " " + item.value + " " + item.name)}>{item.value}</div>);
+                        <div className={className} onClick={this.handleClick.bind(this, key + " "+ cells.subColumn + " "+ cells.member + " " + item.value + " " + item.name)}></div>);
                     },this)}
                     </div>
                 </div>
@@ -1277,7 +1379,7 @@ var TableView = React.createClass({
             var row;
             if(column.subColumns.length >0) {
                 numberOfRows += column.subColumns.length + column.subColumnsTotal;
-                row = <div className="flex-item" style={{flex: column.subColumns.length + column.subColumnsTotal}}>
+                row = <div className="flex-item border" style={{flex: column.subColumns.length + column.subColumnsTotal}}>
                     <div className="flex-container">
                         <div className="flex-item sizeSubCol column" onClick={this.handleClick.bind(this, column.value)}>{column.value}</div>
                     </div>
@@ -1285,7 +1387,7 @@ var TableView = React.createClass({
                 </div>
             } else {
                 numberOfRows +=1;
-                row = <div className="flex-item Total" style={{flex: 1}} onClick={this.handleClick.bind(this, column.value)}>
+                row = <div className="flex-item border-header-total Total" style={{flex: 1}} onClick={this.handleClick.bind(this, column.value)}>
                     Total
                 </div>
             }
@@ -1295,16 +1397,16 @@ var TableView = React.createClass({
         var team = this.state.tableStruct.rows.map(function(rows){
             var row;
             if(rows.subRows.length>0) {
-                row = <div className="flex-item">
+                row = <div className="flex-item ">
                     <div className="flex-container">
-                        <div className="flex-item column" onClick={this.handleClick.bind(this, rows.value)}>{rows.value}</div>
+                        <div className="flex-item border column" onClick={this.handleClick.bind(this, rows.value)}>{rows.value}</div>
                         {this.showTeam(rows)}
                     </div>
                 </div>
             } else {
-                row = <div className="flex-item">
+                row = <div className="flex-item ">
                     <div className="flex-container" onClick={this.handleClick.bind(this, "Total")} >
-                        <div className="flex-item sizeMember Total">Total</div>
+                        <div className="flex-item sizeItem Total">Total</div>
                     </div>
                 </div>
             }
@@ -1330,7 +1432,7 @@ var TableView = React.createClass({
         return(
             <div className="flex">
                 <div className="flex-container">
-                    <div className="flex-item flex-row" style={{flex : 1.2}}>
+                    <div className="flex-item flex-row border-item" style={{flex : 1.2}}>
                         <div className="flex-container">
                         </div>
                     </div>

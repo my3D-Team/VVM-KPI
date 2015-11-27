@@ -2,13 +2,15 @@
     display: flex;
 }
 .flex-item {
-    color: darkslategray;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
     flex:1 0 0%;
-    border: 1px solid darkgray;
+    text-align: center;
+}
+.flex-items {
+    border-radius: 25px;
+    background-color: green;
+    margin: 1px;
+    height: 10px;
+    width: 10px;
 }
 .team {
     display: flex;
@@ -26,9 +28,6 @@
 .sizeSubCol {
     height: 30px;
 }
-.sizeMember {
-    height: 37.2px;
-}
 .sizeItem {
     height: 40px;
 }
@@ -41,6 +40,29 @@
     background: #24478C;
     color: white;
 }
-.header {
-    background: #E6E6E6;
+.border-item {
+    border-left: 1px solid #ececec;
+}
+.border-total {
+    border-left: 1px solid #1c356a;
+}
+.border-drillDown {
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+.border-header-total {
+    border-bottom: 1px solid #1c356a;
+}
+.border {
+    border-left: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+ }
+.spa {
+    background: #e6636f;
+}
+.not {
+    background: #e64fbd;
+}
+.pending {
+    background: #9d49e6;
 }

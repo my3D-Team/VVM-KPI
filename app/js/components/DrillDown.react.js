@@ -120,7 +120,7 @@ var DrillDown = React.createClass({
 
         return (
             <div className="flex">
-                <div className="flex-container sizeSubCol">{header}</div>
+                <div className="flex-container border-drillDown sizeSubCol">{header}</div>
                 {body}
             </div>
         );
