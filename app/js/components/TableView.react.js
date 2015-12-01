@@ -1383,7 +1383,7 @@ var TableView = React.createClass({
                 attribute = " flex-item Aligner-items Total border-total";
             }
             return (
-                <div className={attribute}  onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member)} >
+                <div className={attribute} onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member)} >
                     <div className="flex-container">
                     {cells.cell.map(function(item){
                         var className = "flex-items "+ item.name;
@@ -1397,7 +1397,10 @@ var TableView = React.createClass({
         return items
     },
 
-    handleClick: function(item){
+    handleClick: function(item, e){
+        //VVM util/EventHelper
+        e.stopPropagation();
+        e.preventDefault();
         console.log('click item : ' + item);
     },
 
