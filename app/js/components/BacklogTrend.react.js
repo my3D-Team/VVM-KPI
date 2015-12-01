@@ -4,19 +4,22 @@
 "use strict";
 
 var React = require('react');
-//var AmCharts = require('amcharts');
+//var AmCharts = require('amcharts3');
+//console.log(AmCharts);
 var KpiAction = require('../actions/KpiAction');
 var kpiStore = require('../stores/KpiStore');
 
 var chart;
 
-function initChart(id, data) {
+function initChart(id, data, graphs) {
     chart = AmCharts.makeChart(id, {
         type: "serial",
         dataProvider: data,
         categoryField: "date",
        // depth3D: 20,
         angle: 10,
+
+        "columnWidth": 1,
 
         "startDuration": 1,
 
@@ -50,75 +53,7 @@ function initChart(id, data) {
             autoGridCount: true
         }],
 
-        graphs: [
-            {
-            balloonText: "[[title]] of [[category]]:[[value]]",
-            valueField: "open",
-            bullet: "round",
-            lineThickness: 3,
-            bulletSize: 10,
-            bulletBorderAlpha: 1,
-            bulletColor: "#FFFFFF",
-            useLineColorForBulletBorder: true,
-            bulletBorderThickness: 3,
-            lineAlpha: 1,
-            valueAxis: "right",
-            title: "open",
-            lineColor: "#3949AB",
-            showHandOnHover: true
-        },{
-            balloonText: "[[title]] of [[category]]:[[value]]",
-            valueField: "close",
-            bullet: "round",
-            lineThickness: 3,
-            bulletSize: 10,
-            bulletBorderAlpha: 1,
-            bulletColor: "#FFFFFF",
-            useLineColorForBulletBorder: true,
-            bulletBorderThickness: 3,
-            lineAlpha: 1,
-            title: "close",
-            valueAxis: "right",
-            lineColor: "#DA245A",
-            showHandOnHover: true
-        },{
-            balloonText: "[[title]] of [[category]]:[[value]]",
-            valueField: "P1",
-            type: "column",
-            lineColor: "#7CB342",
-            lineAlpha: 0,
-            fillAlphas: 1,
-            title: "P1",
-            showHandOnHover: true
-        },{
-            balloonText: "[[title]] of [[category]]:[[value]]",
-            valueField: "P2",
-            lineColor: "#546E7A",
-            type: "column",
-            lineAlpha: 0,
-            fillAlphas: 1,
-            title: "P2",
-            showHandOnHover: true
-        },{
-            balloonText: "[[title]] of [[category]]:[[value]]",
-            valueField: "P3",
-            lineColor: "#039BE5",
-            type: "column",
-            lineAlpha: 0,
-            fillAlphas: 1,
-            title: "P3",
-            showHandOnHover: true
-        },{
-            balloonText: "[[title]] of [[category]]:[[value]]",
-            valueField: "P4",
-            lineColor: "#FFB300",
-            type: "column",
-            lineAlpha: 0,
-            fillAlphas: 1,
-            title: "P4",
-            showHandOnHover: true
-        }],
-
+        graphs: graphs,
 
         chartScrollbar: {},
         chartCursor: {
@@ -173,7 +108,8 @@ var backlogTrend = React.createClass({
                         "value": 5
                     }
                 ]
-            },{
+            },
+                {
                 "date": "04-02",
                 "opened": 7,
                 "closed": 5,
@@ -192,7 +128,8 @@ var backlogTrend = React.createClass({
                         "value": 5
                     }
                 ]
-            },{
+            },
+                {
                 "date": "05-02",
                 "opened": 2,
                 "closed": 5,
@@ -211,7 +148,8 @@ var backlogTrend = React.createClass({
                         "value": 5
                     }
                 ]
-            },{
+            },
+                {
                 "date": "06-02",
                 "opened": 20,
                 "closed": 14,
@@ -230,7 +168,8 @@ var backlogTrend = React.createClass({
                         "value": 15
                     }
                 ]
-            },{
+            },
+                {
                 "date": "07-02",
                 "opened": 25,
                 "closed": 30,
@@ -249,7 +188,8 @@ var backlogTrend = React.createClass({
                         "value": 15
                     }
                 ]
-            },{
+            },
+                {
                 "date": "08-02",
                 "opened": 20,
                 "closed": 13,
@@ -268,7 +208,8 @@ var backlogTrend = React.createClass({
                         "value": 15
                     }
                 ]
-            },{
+            },
+                {
                 "date": "09-02",
                 "opened": 20,
                 "closed": 15,
@@ -287,7 +228,8 @@ var backlogTrend = React.createClass({
                         "value": 15
                     }
                 ]
-            },{
+            },
+                {
                 "date": "10-02",
                 "opened": 7,
                 "closed": 5,
@@ -306,7 +248,8 @@ var backlogTrend = React.createClass({
                         "value": 5
                     }
                 ]
-            },{
+            },
+                {
                 "date": "11-02",
                 "opened": 2,
                 "closed": 5,
@@ -325,7 +268,8 @@ var backlogTrend = React.createClass({
                         "value": 5
                     }
                 ]
-            },{
+            },
+                {
                 "date": "12-02",
                 "opened": 20,
                 "closed": 14,
@@ -362,7 +306,56 @@ var backlogTrend = React.createClass({
             });
             return data;
         });
-        initChart('chartdiv', data);
+        var color = ["#FFB300", "#039BE5", "#546E7A", "#7CB342"];
+        var graphs=[
+            {
+            balloonText: "[[title]] of [[category]]:[[value]]",
+            valueField: "open",
+            bullet: "round",
+            lineThickness: 3,
+            bulletSize: 10,
+            bulletBorderAlpha: 1,
+            bulletColor: "#FFFFFF",
+            useLineColorForBulletBorder: true,
+            bulletBorderThickness: 3,
+            lineAlpha: 1,
+            valueAxis: "right",
+            title: "open",
+            lineColor: "#3949AB",
+            type: "smoothedLine",
+            showHandOnHover: true
+        },
+            {
+            balloonText: "[[title]] of [[category]]:[[value]]",
+            valueField: "close",
+            bullet: "round",
+            lineThickness: 3,
+            bulletSize: 10,
+            bulletBorderAlpha: 1,
+            bulletColor: "#FFFFFF",
+            useLineColorForBulletBorder: true,
+            bulletBorderThickness: 3,
+            lineAlpha: 1,
+            title: "close",
+            valueAxis: "right",
+            lineColor: "#DA245A",
+            type: "smoothedLine",
+            showHandOnHover: true
+        }];
+        this.state.data[0].splits.map(function(field, index) {
+            graphs.push(  {
+                    balloonText: "[[title]] of [[category]]:[[value]]",
+                    valueField: field.name,
+                    lineColor: color[index],
+                    type: "column",
+                    lineAlpha: 0,
+                    fillAlphas: 1,
+                    title: field.name,
+                    showHandOnHover: true
+                })
+            });
+        console.log(graphs);
+        initChart('chartdiv', data, graphs);
         chart.addListener("clickGraphItem", this.handleClick);
     },
     componentDidMount: function () {

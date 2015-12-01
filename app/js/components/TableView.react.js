@@ -1329,12 +1329,12 @@ var TableView = React.createClass({
         var total;
         var subColumn = column.subColumns.map(function (subColumn) {
             return (
-                <div className="flex-item border" onClick={this.handleClick.bind(this,column.value +" "+ subColumn.value)} >{subColumn.value}</div>
+                <div className="flex-item Aligner border" onClick={this.handleClick.bind(this,column.value +" "+ subColumn.value)} >{subColumn.value}</div>
             );
         },this);
 
         if(column.subColumnsTotal){
-            total = <div className="flex-item border" onClick={this.handleClick.bind(this,column.value +" Total")}>Total</div>
+            total = <div className="flex-item Aligner border" onClick={this.handleClick.bind(this,column.value +" Total")}>Total</div>
         }
 
         return (
@@ -1349,18 +1349,18 @@ var TableView = React.createClass({
         var total;
         var attribute;
         var subRows = rows.subRows.map(function(subRow, index) {
-            attribute = "flex-item sizeItem";
+            attribute = "flex-item Aligner-items sizeItem";
             if (index%2 != 0) {
-                attribute = "flex-item sizeItem flex-row";
+                attribute = "flex-item Aligner-items sizeItem flex-row";
             }
             return (
                 <div className={attribute} onClick={this.handleClick.bind(this, rows.value + " " + subRow.value)}>{subRow.value}</div>
             );
         },this );
-        if(attribute == "flex-item sizeItem flex-row") {
-            attribute = "flex-item sizeItem";
+        if(attribute == "flex-item Aligner-items sizeItem flex-row") {
+            attribute = "flex-item Aligner-items sizeItem";
         } else {
-            attribute = "flex-item sizeItem flex-row";
+            attribute = "flex-item Aligner-items sizeItem flex-row";
         }
         if(rows.subRowsTotal > 0){
             total = <div className={attribute} onClick={this.handleClick.bind(this, rows.value + " Total")}>Total</div>
@@ -1375,12 +1375,12 @@ var TableView = React.createClass({
 
     showData: function(row, index) {
         var items = row.map(function(cells){
-            var attribute = "flex-item border-item " +cells.column;
+            var attribute = "flex-item Aligner-items border-item " +cells.column;
             if (index%2 != 0) {
-                attribute = "flex-item border-item " +cells.column +"2";
+                attribute = "flex-item Aligner-items border-item " +cells.column +"2";
             }
             if(cells.team == "Total") {
-                attribute = " flex-item Total border-total";
+                attribute = " flex-item Aligner-items Total border-total";
             }
             return (
                 <div className={attribute}  onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member)} >
@@ -1409,13 +1409,13 @@ var TableView = React.createClass({
                 numberOfRows += column.subColumns.length + column.subColumnsTotal;
                 row = <div className="flex-item border" style={{flex: column.subColumns.length + column.subColumnsTotal}}>
                     <div className="flex-container">
-                        <div className="flex-item sizeSubCol column" onClick={this.handleClick.bind(this, column.value)}>{column.value}</div>
+                        <div className="flex-item sizeSubCol Aligner column" onClick={this.handleClick.bind(this, column.value)}>{column.value}</div>
                     </div>
                     {this.showSubColumns(column)}
                 </div>
             } else {
                 numberOfRows +=1;
-                row = <div className="flex-item border-header-total Total" style={{flex: 1}} onClick={this.handleClick.bind(this, column.value)}>
+                row = <div className="flex-item border-header-total Aligner Total" style={{flex: 1}} onClick={this.handleClick.bind(this, column.value)}>
                     Total
                 </div>
             }
@@ -1427,14 +1427,14 @@ var TableView = React.createClass({
             if(rows.subRows.length>0) {
                 row = <div className="flex-item ">
                     <div className="flex-container">
-                        <div className="flex-item border column" onClick={this.handleClick.bind(this, rows.value)}>{rows.value}</div>
+                        <div className="flex-item border Aligner column" onClick={this.handleClick.bind(this, rows.value)}>{rows.value}</div>
                         {this.showTeam(rows)}
                     </div>
                 </div>
             } else {
                 row = <div className="flex-item ">
                     <div className="flex-container" onClick={this.handleClick.bind(this, "Total")} >
-                        <div className="flex-item sizeItem Total">Total</div>
+                        <div className="flex-item sizeItem Aligner Total">Total</div>
                     </div>
                 </div>
             }
