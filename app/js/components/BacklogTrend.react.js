@@ -87,9 +87,13 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 15
+                    },{
+                        "name": "P5",
+                        "value": 15
                     }
                 ]
-            },{
+            },
+                {
                 "date": "03-02",
                 "opened": 12,
                 "closed": 1,
@@ -106,6 +110,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 5
+                    },{
+                        "name": "P5",
+                        "value": 15
                     }
                 ]
             },
@@ -126,6 +133,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 5
+                    },{
+                        "name": "P5",
+                        "value": 25
                     }
                 ]
             },
@@ -146,6 +156,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 5
+                    },{
+                        "name": "P5",
+                        "value": 3
                     }
                 ]
             },
@@ -166,6 +179,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 15
+                    },{
+                        "name": "P5",
+                        "value": 20
                     }
                 ]
             },
@@ -186,6 +202,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 15
+                    },{
+                        "name": "P5",
+                        "value": 1
                     }
                 ]
             },
@@ -206,6 +225,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 15
+                    },{
+                        "name": "P5",
+                        "value": 17
                     }
                 ]
             },
@@ -226,6 +248,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 15
+                    },{
+                        "name": "P5",
+                        "value": 10
                     }
                 ]
             },
@@ -246,6 +271,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 5
+                    },{
+                        "name": "P5",
+                        "value": 17
                     }
                 ]
             },
@@ -266,6 +294,9 @@ var backlogTrend = React.createClass({
                     },{
                         "name": "P4",
                         "value": 5
+                    },{
+                        "name": "P5",
+                        "value": 3
                     }
                 ]
             },
@@ -285,6 +316,9 @@ var backlogTrend = React.createClass({
                         "value": 7
                     },{
                         "name": "P4",
+                        "value": 10
+                    },{
+                        "name": "P5",
                         "value": 15
                     }
                 ]
@@ -306,7 +340,7 @@ var backlogTrend = React.createClass({
             });
             return data;
         });
-        var color = ["#FFB300", "#039BE5", "#546E7A", "#7CB342"];
+        var color = ["#ccff90", "#b0bec5", "#80d8ff","#ffe57f", "#ff8a80"];
         var graphs=[
             {
             balloonText: "[[title]] of [[category]]:[[value]]",
@@ -321,7 +355,7 @@ var backlogTrend = React.createClass({
             lineAlpha: 1,
             valueAxis: "right",
             title: "open",
-            lineColor: "#3949AB",
+            lineColor: "#000F14",
             type: "smoothedLine",
             showHandOnHover: true
         },
@@ -338,7 +372,7 @@ var backlogTrend = React.createClass({
             lineAlpha: 1,
             title: "close",
             valueAxis: "right",
-            lineColor: "#DA245A",
+            lineColor: "#006B8F",
             type: "smoothedLine",
             showHandOnHover: true
         }];
