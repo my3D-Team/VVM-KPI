@@ -19,13 +19,14 @@ function initChart(id, data, graphs) {
        // depth3D: 20,
         angle: 10,
 
-        "columnWidth": 1,
+        "columnWidth": 0.9,
 
-        "startDuration": 1,
+        "startDuration": 0.3,
 
         legend: {
-            "useGraphSettings": true,
-            top: 12
+            markerType: "square",
+            useGraphSettings: true,
+            position: "top"
         },
 
         balloon: {
@@ -38,24 +39,38 @@ function initChart(id, data, graphs) {
         },
 
         categoryAxis: {
-            title: "date",
-            gridPosition: "start"
+            title: "Date",
+            gridPosition: "start",
+            axisColor: "#b0bec5",
+            gridAlpha: 0,
+            fillAlpha: 1
         },
 
         valueAxes: [{
             title: "Priority",
             stackType: "regular",
-            position: "left"
+            position: "left",
+            axisColor: "#b0bec5",
+            gridAlpha: 0,
+            fillAlpha: 1
         },{
-            title: "status",
+            title: "Status",
             position: "right",
             id: "right",
-            autoGridCount: true
+            axisColor: "#b0bec5",
+            gridColor: "#f9f9f9",
+            gridAlpha:1,
+            fillColor:"#f9f9f9",
+            fillAlpha: 1
         }],
 
         graphs: graphs,
 
-        chartScrollbar: {},
+        chartScrollbar: {
+            enabled: true,
+            dragIconHeight: 20,
+            scrollbarHeight: 10
+        },
         chartCursor: {
             categoryBalloonEnabled: true,
             oneBalloonOnly: true
@@ -279,7 +294,7 @@ var backlogTrend = React.createClass({
             },
                 {
                 "date": "11-02",
-                "opened": 2,
+                "opened": 12,
                 "closed": 5,
                 "splits": [
                     {
@@ -301,28 +316,74 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "12-02",
-                "opened": 20,
-                "closed": 14,
-                "splits": [
-                    {
-                        "name": "P1",
-                        "value": 20
-                    },{
-                        "name": "P2",
-                        "value": 4
-                    },{
-                        "name": "P3",
-                        "value": 7
-                    },{
-                        "name": "P4",
-                        "value": 10
-                    },{
-                        "name": "P5",
-                        "value": 15
-                    }
-                ]
-            }
+                    "date": "12-02",
+                    "opened": 20,
+                    "closed": 14,
+                    "splits": [
+                        {
+                            "name": "P1",
+                            "value": 20
+                        },{
+                            "name": "P2",
+                            "value": 4
+                        },{
+                            "name": "P3",
+                            "value": 7
+                        },{
+                            "name": "P4",
+                            "value": 10
+                        },{
+                            "name": "P5",
+                            "value": 15
+                        }
+                    ]
+                },
+                {
+                    "date": "13-02",
+                    "opened": 5,
+                    "closed": 3,
+                    "splits": [
+                        {
+                            "name": "P1",
+                            "value": 2
+                        },{
+                            "name": "P2",
+                            "value": 15
+                        },{
+                            "name": "P3",
+                            "value": 7
+                        },{
+                            "name": "P4",
+                            "value": 10
+                        },{
+                            "name": "P5",
+                            "value": 15
+                        }
+                    ]
+                },
+                {
+                    "date": "14-02",
+                    "opened": 20,
+                    "closed": 14,
+                    "splits": [
+                        {
+                            "name": "P1",
+                            "value": 20
+                        },{
+                            "name": "P2",
+                            "value": 4
+                        },{
+                            "name": "P3",
+                            "value": 7
+                        },{
+                            "name": "P4",
+                            "value": 10
+                        },{
+                            "name": "P5",
+                            "value": 15
+                        }
+                    ]
+                }
         ]
         };
     },
@@ -354,9 +415,8 @@ var backlogTrend = React.createClass({
             bulletBorderThickness: 3,
             lineAlpha: 1,
             valueAxis: "right",
-            title: "open",
+            title: "opened",
             lineColor: "#000F14",
-            type: "smoothedLine",
             showHandOnHover: true
         },
             {
@@ -370,10 +430,9 @@ var backlogTrend = React.createClass({
             useLineColorForBulletBorder: true,
             bulletBorderThickness: 3,
             lineAlpha: 1,
-            title: "close",
+            title: "closed",
             valueAxis: "right",
             lineColor: "#006B8F",
-            type: "smoothedLine",
             showHandOnHover: true
         }];
         this.state.data[0].splits.map(function(field, index) {
@@ -406,12 +465,12 @@ var backlogTrend = React.createClass({
 
     onChange: function () {
         console.log(kpiStore.getSelectedPreview());
-        this.parseData();
+        console.log(kpiStore.getSelectedPreview().item.category + ": " + kpiStore.getSelectedPreview().item.values.value + " : " + kpiStore.getSelectedPreview().graph.title);
     },
     render: function () {
         var css = {
-            width: "75%",
-            height: "400px"
+            width: "100%",
+            height: "650px"
         };
         return (
             <div>

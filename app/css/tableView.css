@@ -51,14 +51,14 @@
     color: white;
 }
 .border-item {
-    border-left: 1px solid #ececec;
+    border-left: 1px solid #efefef;
 }
 .border-total {
     border-left: 1px solid #1c356a;
 }
 .border-drillDown {
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
 }
 .border-header-total {
     border-bottom: 1px solid #1c356a;
@@ -67,12 +67,22 @@
     border-left: 1px solid #ececec;
     border-bottom: 1px solid #ececec;
  }
-.spa {
-    background: #e6636f;
+.Withing {
+    background: #8cc151;
 }
-.not {
-    background: #e64fbd;
+.About {
+    background: #ffb300;
 }
-.pending {
-    background: #9d49e6;
+.breached {
+    background: #e53935;
+}
+.Pending {
+    background: #546e7a;
+}
+.no {
+    background: #039be5;
+}
+.legend {
+    display: flex;
+    margin: 20px;
 }

@@ -9,8 +9,9 @@ var App = React.createClass({
     render: function () {
         return (
             <div>
-                <h1> BacklogTrend</h1>
+                <br/>
                 <BacklogTrend />
+                <br/>
                 <h1> Table View </h1>
                 <TableView />
                 <h1> Drill Down </h1>
