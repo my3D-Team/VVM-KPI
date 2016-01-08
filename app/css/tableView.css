@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+.content {
+    font-family: "Open Sans";
+}
+.flex {
+    font-family: "Open Sans";
+    border-left: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+}
 .flex-container {
     display: flex;
 }
@@ -6,30 +19,36 @@
     text-align: center;
 }
 .flex-items {
+    color: white;
+    padding: 3px;
+    font-size: 13px;
     border-radius: 25px;
-    background-color: green;
     margin-right: 5px;
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
 }
 .team {
     display: flex;
 }
 .members {
+    font-size: 14px;
     flex-direction: column;
+    border-right: 1px solid #efefef;
 }
 
 .column {
-    background: #E6E6E6;
+    background: #F9F9F9;
+    border-right: 1px solid #efefef;
 }
 .flex-row {
     background: #F9F9F9;
 }
 .sizeSubCol {
+    background: #F9F9F9;
     height: 30px;
 }
 .sizeItem {
-    height: 40px;
+    height: 55px;
 }
 .Aligner {
     display: flex;
@@ -37,35 +56,47 @@
     justify-content: center;
 }
 .Aligner-items {
+    justify-content: center;
     padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     align-items: center;
 }
-
+.bottomBorder {
+    border-bottom: 1px solid #efefef;
+}
+/*
 .Total {
+    border-left: 1px solid #1c356a;
+    background: #264B94;
+    color: white;
+}
+
+.TotalHeader {
     background: #264B94;
     color: white;
 }
 .Total2 {
+    border-left: 1px solid #1c356a;
     background: #24478C;
     color: white;
 }
+*/
+
 .border-item {
-    border-left: 1px solid #efefef;
-}
-.border-total {
-    border-left: 1px solid #1c356a;
+    border-right: 1px solid #efefef;
 }
 .border-drillDown {
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
 }
+
 .border-header-total {
-    border-bottom: 1px solid #1c356a;
+    background: #F9F9F9;
 }
-.border {
-    border-left: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
+.border-header {
+    border-right: 1px solid #ececec;
+    border-bottom: 2px solid #ececec;
  }
 .Withing {
     background: #8cc151;

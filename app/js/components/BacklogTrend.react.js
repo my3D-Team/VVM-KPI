@@ -16,6 +16,8 @@ function initChart(id, data, graphs) {
         type: "serial",
         dataProvider: data,
         categoryField: "date",
+
+        fontFamily: "Open Sans",
        // depth3D: 20,
         angle: 10,
 
@@ -30,12 +32,13 @@ function initChart(id, data, graphs) {
         },
 
         balloon: {
+            fixedPosition: true,
             adjustBorderColor: true,
-            color: "#000000",
-            cornerRadius: 10,
-            disableMouseEvents: false,
-            fadeOutDuration: 1,
-            fillColor: "#FFFFFF"
+            cornerRadius: 3,
+            fadeOutDuration: 0,
+            animationDuration: 0,
+            shadowAlpha: 0,
+            disableMouseEvents: false
         },
 
         categoryAxis: {
@@ -67,13 +70,15 @@ function initChart(id, data, graphs) {
         graphs: graphs,
 
         chartScrollbar: {
+            dragIcon: "dragIconRectSmall",
             enabled: true,
             dragIconHeight: 20,
             scrollbarHeight: 10
         },
         chartCursor: {
             categoryBalloonEnabled: true,
-            oneBalloonOnly: true
+            oneBalloonOnly: true,
+            cursorColor: "#017df5"
         },
         "export": {
             enabled: true

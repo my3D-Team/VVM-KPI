@@ -11,7 +11,8 @@ var TableView = React.createClass({
     getInitialState: function() {
         return {
             "tableStruct": {
-                "columns": [{
+                "columns": [
+                    {
                     "value": "Assigned",
                     "subColumnsTotal": 1,
                     "subColumns": [{
@@ -78,12 +79,6 @@ var TableView = React.createClass({
                                 cell: [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                }, {
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                }, {
-                                    value: 30,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -93,12 +88,6 @@ var TableView = React.createClass({
                                 column:'Assigned',
                                 subColumn: "P2",
                                 cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
                                     value: 10,
                                     name: "Pending"
                                 }
@@ -111,12 +100,6 @@ var TableView = React.createClass({
                                 subColumn: "P3",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
                                     name: "SLA breached"
                                 }
                                 ]
@@ -128,11 +111,16 @@ var TableView = React.createClass({
                                 subColumn: "Total",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
                                     value: 10,
                                     name: "SLA breached"
                                 }
@@ -146,12 +134,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -162,30 +144,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -195,12 +154,6 @@ var TableView = React.createClass({
                                 column:'Total',
                                 subColumn: "P1",
                                 cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
                                     value: 10,
                                     name: "SLA breached"
                                 }
@@ -217,12 +170,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 30,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -234,12 +181,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -250,11 +191,96 @@ var TableView = React.createClass({
                                 subColumn: "P3",
                                 cell : [{
                                     value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
                                     name: "Withing SLA range"
-                                },{
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
-                                },{
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row: [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column: 'Assigned',
+                                subColumn: "P1",
+                                cell: [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "Pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
                                     value: 10,
                                     name: "SLA breached"
                                 }
@@ -267,11 +293,16 @@ var TableView = React.createClass({
                                 subColumn: "Total",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
                                     value: 10,
                                     name: "SLA breached"
                                 }
@@ -285,12 +316,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -301,30 +326,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -335,11 +337,96 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            }
+                        ]
+                    },{
+                        row: [
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column: 'Assigned',
+                                subColumn: "P1",
+                                cell: [{
+                                    value: 10,
                                     name: "Withing SLA range"
-                                },{
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P2",
+                                cell : [{
+                                    value: 10,
+                                    name: "Pending"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "P3",
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Assigned',
+                                subColumn: "Total",
+                                cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
-                                },{
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'In Progress',
+                                subColumn: "P1",
+                                cell : [{
+                                    value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                team: "VVM team",
+                                member: "Mohamed",
+                                column:'Total',
+                                subColumn: "P1",
+                                cell : [{
                                     value: 10,
                                     name: "SLA breached"
                                 }
@@ -356,12 +443,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 30,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -373,12 +454,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -389,13 +464,7 @@ var TableView = React.createClass({
                                 subColumn: "P3",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -406,12 +475,6 @@ var TableView = React.createClass({
                                 subColumn: "Total",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
                                     name: "SLA breached"
                                 }
                                 ]
@@ -424,12 +487,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -441,12 +498,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -457,13 +508,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -475,12 +520,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             }
@@ -495,12 +534,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 30,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -512,12 +545,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -528,13 +555,7 @@ var TableView = React.createClass({
                                 subColumn: "P3",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -545,12 +566,6 @@ var TableView = React.createClass({
                                 subColumn: "Total",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
                                     name: "SLA breached"
                                 }
                                 ]
@@ -563,12 +578,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -580,12 +589,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -596,13 +599,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -614,12 +611,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             }
@@ -634,12 +625,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 30,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -651,12 +636,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -667,13 +646,7 @@ var TableView = React.createClass({
                                 subColumn: "P3",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -684,12 +657,6 @@ var TableView = React.createClass({
                                 subColumn: "Total",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
                                     name: "SLA breached"
                                 }
                                 ]
@@ -702,12 +669,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -719,12 +680,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -735,13 +690,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -753,12 +702,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             }
@@ -773,12 +716,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 30,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -790,12 +727,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -806,13 +737,7 @@ var TableView = React.createClass({
                                 subColumn: "P3",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -823,12 +748,6 @@ var TableView = React.createClass({
                                 subColumn: "Total",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
                                     name: "SLA breached"
                                 }
                                 ]
@@ -841,12 +760,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -858,12 +771,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -874,13 +781,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -892,290 +793,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            }
-                        ]
-                    },{
-                        row : [
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 30,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            }
-                        ]
-                    },{
-                        row : [
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 30,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             }
@@ -1188,12 +805,6 @@ var TableView = React.createClass({
                                 column:'Assigned',
                                 subColumn: "P1",
                                 cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 20,
-                                    name: "About to breach SLA"
-                                },{
                                     value: 30,
                                     name: "SLA breached"
                                 }
@@ -1207,12 +818,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -1223,13 +828,7 @@ var TableView = React.createClass({
                                 subColumn: "P3",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -1240,12 +839,6 @@ var TableView = React.createClass({
                                 subColumn: "Total",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
                                     name: "SLA breached"
                                 }
                                 ]
@@ -1257,13 +850,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -1273,12 +860,6 @@ var TableView = React.createClass({
                                 column:'In Progress',
                                 subColumn: "P1",
                                 cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
                                     value: 10,
                                     name: "SLA breached"
                                 }
@@ -1292,12 +873,6 @@ var TableView = React.createClass({
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
-                                },{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             },
@@ -1308,13 +883,7 @@ var TableView = React.createClass({
                                 subColumn: "P1",
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
-                                },{
-                                    value: 10,
                                     name: "About to breach SLA"
-                                },{
-                                    value: 10,
-                                    name: "SLA breached"
                                 }
                                 ]
                             }
@@ -1330,12 +899,12 @@ var TableView = React.createClass({
         var total;
         var subColumn = column.subColumns.map(function (subColumn) {
             return (
-                <div className="flex-item Aligner border" onClick={this.handleClick.bind(this,column.value +" "+ subColumn.value)} >{subColumn.value}</div>
+                <div className="flex-item Aligner border-item" onClick={this.handleClick.bind(this,column.value +" "+ subColumn.value)} >{subColumn.value}</div>
             );
         },this);
 
         if(column.subColumnsTotal){
-            total = <div className="flex-item Aligner border" onClick={this.handleClick.bind(this,column.value +" Total")}>Total</div>
+            total = <div className="flex-item Aligner border-item" onClick={this.handleClick.bind(this,column.value +" Total")}>Total</div>
         }
 
         return (
@@ -1380,16 +949,19 @@ var TableView = React.createClass({
             if (index%2 != 0) {
                 attribute = "flex-item Aligner-items border-item " +cells.column +"2";
             }
+          /*  if(cells.column != "Total") {
+                attribute += " border-item";
+            }
             if(cells.team == "Total") {
                 attribute = " flex-item Aligner-items Total border-total";
-            }
+            }*/
             return (
                 <div className={attribute} onMouseOver={this.handleMouseOver.bind(this, cells.cell)}  onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member)} >
                     <div className="flex-container">
                     {cells.cell.map(function(item){
                         var className = "flex-items "+ item.name;
                         return(
-                            <div className={className} onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member + " " + item.value + " " + item.name)}></div>);
+                            <div className={className} onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member + " " + item.value + " " + item.name)}>{item.value}</div>);
                     },this)}
                     </div>
                 </div>
@@ -1418,6 +990,7 @@ var TableView = React.createClass({
             this.setState({legend:newArray});
         }
     },
+
     render: function() {
         var numberOfRows = 0;
 
@@ -1425,44 +998,53 @@ var TableView = React.createClass({
             var row;
             if(column.subColumns.length >0) {
                 numberOfRows += column.subColumns.length + column.subColumnsTotal;
-                row = <div className="flex-item border" style={{flex: column.subColumns.length + column.subColumnsTotal}}>
+                row = <div className="flex-item " style={{flex: column.subColumns.length + column.subColumnsTotal}}>
                     <div className="flex-container">
-                        <div className="flex-item sizeSubCol Aligner column" onClick={this.handleClick.bind(this, column.value)}>{column.value}</div>
+                        <div className="flex-item sizeSubCol Aligner column bottomBorder" onClick={this.handleClick.bind(this, column.value)}>{column.value}</div>
                     </div>
                     {this.showSubColumns(column)}
                 </div>
             } else {
                 numberOfRows +=1;
-                row = <div className="flex-item border-header-total Aligner Total" style={{flex: 1}} onClick={this.handleClick.bind(this, column.value)}>
+                row = <div className="flex-item border-header-total Aligner TotalHeader" style={{flex: 1}} onClick={this.handleClick.bind(this, column.value)}>
                     Total
                 </div>
             }
             return {row}
         }, this);
 
+        var teamMemeber = [];
         var team = this.state.tableStruct.rows.map(function(rows){
+            teamMemeber.push(rows.subRows.length + rows.subRowsTotal);
             var row;
             if(rows.subRows.length>0) {
                 row = <div className="flex-item ">
-                    <div className="flex-container">
-                        <div className="flex-item border Aligner column" onClick={this.handleClick.bind(this, rows.value)}>{rows.value}</div>
+                    <div className="flex-container bottomBorder">
+                        <div className="flex-container">
+                            <div className="flex-item Aligner column" onClick={this.handleClick.bind(this, rows.value)}>{rows.value}</div>
+                        </div>
                         {this.showTeam(rows)}
                     </div>
                 </div>
             } else {
                 row = <div className="flex-item ">
-                    <div className="flex-container" onClick={this.handleClick.bind(this, "Total")} >
-                        <div className="flex-item sizeItem Aligner Total">Total</div>
+                    <div className="flex-container bottomBorder" onClick={this.handleClick.bind(this, "Total")} >
+                        <div className="flex-item sizeItem Aligner border-item Total">Total</div>
                     </div>
                 </div>
             }
             return {row}
         }, this);
-
+        var i =0;
         var data = this.state.data.rows.map(function(rows, index){
-            var attribute = "flex-container sizeItem";
+            var attribute = "flex-container sizeItem ";
             if (index%2 != 0) {
-                attribute = "flex-container sizeItem flex-row"
+                attribute = "flex-container sizeItem flex-row ";
+            }
+            if(index === teamMemeber[0]-1) {
+                attribute = attribute + " bottomBorder";
+                teamMemeber[0] += teamMemeber[i+1];
+                i++;
             }
             return (
                 <div className={attribute}>
@@ -1482,9 +1064,11 @@ var TableView = React.createClass({
                 {legend}
                 </div>
                 <div className="flex">
-                    <div className="flex-container">
-                        <div className="flex-item flex-row border-item" style={{flex : 1.2}}>
+                    <div className="flex-container container border-header">
+                        <div className="flex-item border-item flex-row" style={{flex : 1.2}}>
                             <div className="flex-container">
+                                <div className="flex-item">jljkjkj
+                                </div>
                             </div>
                         </div>
                         {header}
