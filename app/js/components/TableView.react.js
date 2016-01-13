@@ -891,7 +891,9 @@ var TableView = React.createClass({
                     }
                 ]
             },
-            "legend" : []
+            "legend" : [
+
+            ]
         }
     },
 
@@ -936,7 +938,7 @@ var TableView = React.createClass({
             total = <div className={attribute} onClick={this.handleClick.bind(this, rows.value + " Total")}>Total</div>
         }
         return (
-            <div className="flex-container members">
+            <div className="flex-container members" style={{flex: 1}}>
                 {subRows}
                 {total}
             </div>
@@ -1020,7 +1022,7 @@ var TableView = React.createClass({
             if(rows.subRows.length>0) {
                 row = <div className="flex-item ">
                     <div className="flex-container bottomBorder">
-                        <div className="flex-container">
+                        <div className="flex-container" style={{flex:0.5}}>
                             <div className="flex-item Aligner column" onClick={this.handleClick.bind(this, rows.value)}>{rows.value}</div>
                         </div>
                         {this.showTeam(rows)}
@@ -1065,16 +1067,16 @@ var TableView = React.createClass({
                 </div>
                 <div className="flex">
                     <div className="flex-container container border-header">
-                        <div className="flex-item border-item flex-row" style={{flex : 1.2}}>
+                        <div className="flex-item border-item flex-row" style={{flex : 1.5}}>
                             <div className="flex-container">
-                                <div className="flex-item">jljkjkj
+                                <div className="flex-item">
                                 </div>
                             </div>
                         </div>
                         {header}
                     </div>
                     <div className="flex-container">
-                        <div className="flex-item"  style={{flex: 1.2}}>
+                        <div className="flex-item"  style={{flex: 1.5}}>
                         {team}
                         </div>
                         <div className="flex-item" style={{flex: numberOfRows}}>

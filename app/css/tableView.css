@@ -37,6 +37,8 @@
 }
 
 .column {
+    padding-right: 5px;
+    padding-left: 5px;
     background: #F9F9F9;
     border-right: 1px solid #efefef;
 }
@@ -57,8 +59,8 @@
 }
 .Aligner-items {
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     display: flex;
     align-items: center;
 }
