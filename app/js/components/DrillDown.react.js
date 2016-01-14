@@ -10,7 +10,7 @@ var DrillDown = React.createClass({
     getInitialState: function() {
         return {
             "data": {
-                "header": [
+                "headerRow": [
                         {
                             "value": "name"
                         },{
@@ -25,7 +25,7 @@ var DrillDown = React.createClass({
                             "value": "Total"
                         }
                     ],
-                "body": [
+                "bodyRows": [
                     {
                         "cell": [
                             {
@@ -102,13 +102,13 @@ var DrillDown = React.createClass({
         return row
     },
     render: function(){
-        var header = this.state.data.header.map(function(item){
+        var header = this.state.data.headerRow.map(function(item){
             return(
                 <div className="flex-item">{item.value}</div>
             );
         });
 
-        var body = this.state.data.body.map(function(item, index){
+        var body = this.state.data.bodyRows.map(function(item, index){
             var attribute = "flex-container sizeItem";
             if (index%2 != 0) {
                 attribute = "flex-container sizeItem flex-row"

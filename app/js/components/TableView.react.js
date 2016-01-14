@@ -72,10 +72,7 @@ var TableView = React.createClass({
                     {
                         row: [
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column: 'Assigned',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell: [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -83,10 +80,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Pending"
@@ -94,10 +88,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -105,10 +96,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -116,10 +104,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -127,10 +112,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -138,10 +120,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -149,10 +128,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -160,13 +136,11 @@ var TableView = React.createClass({
                                 ]
                             }
                         ]
-                    },{
+                    },
+                    {
                         row : [
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -174,10 +148,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -185,10 +156,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -196,10 +164,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -207,10 +172,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -218,10 +180,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -229,10 +188,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -240,13 +196,146 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
+                                }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        row: [
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell: [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "Pending"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        row: [
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell: [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "Pending"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
                                 }
                                 ]
                             }
@@ -254,10 +343,7 @@ var TableView = React.createClass({
                     },{
                         row: [
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column: 'Assigned',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell: [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -265,10 +351,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Pending"
@@ -276,10 +359,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -287,10 +367,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -298,10 +375,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -309,10 +383,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -320,10 +391,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -331,10 +399,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -345,10 +410,7 @@ var TableView = React.createClass({
                     },{
                         row: [
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column: 'Assigned',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell: [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -356,10 +418,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Pending"
@@ -367,10 +426,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -378,10 +434,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -389,10 +442,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -400,10 +450,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -411,10 +458,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -422,10 +466,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -434,45 +475,25 @@ var TableView = React.createClass({
                             }
                         ]
                     },{
-                        row : [
+                        row: [
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P1",
-                                cell : [{
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell: [{
                                     value: 10,
                                     name: "Withing SLA range"
                                 }
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
+                                    name: "Pending"
                                 }
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -480,32 +501,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -513,57 +509,58 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
                                 }
                                 ]
                             }
                         ]
                     },{
-                        row : [
+                        row: [
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P1",
-                                cell : [{
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell: [{
                                     value: 10,
                                     name: "Withing SLA range"
                                 }
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
+                                    name: "Pending"
                                 }
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -571,32 +568,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -604,57 +576,58 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "About to breach SLA"
+                                }
+                                ]
+                            },
+                            {
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell : [{
+                                    value: 10,
+                                    name: "SLA breached"
                                 }
                                 ]
                             }
                         ]
                     },{
-                        row : [
+                        row: [
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P1",
-                                cell : [{
+                                selectedFieldValuesFilter: 'Assigned',
+                                cell: [{
                                     value: 10,
                                     name: "Withing SLA range"
                                 }
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
-                                    name: "Withing SLA range"
+                                    name: "Pending"
                                 }
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -662,32 +635,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -695,57 +643,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            }
-                        ]
-                    },{
-                        row : [
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P2",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "P3",
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
@@ -753,10 +651,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "Withing SLA range"
@@ -764,21 +659,7 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "About to breach SLA"
@@ -786,104 +667,10 @@ var TableView = React.createClass({
                                 ]
                             },
                             {
-                                team: "VVM team",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            }
-                        ]
-                    },{
-                        row : [
-                            {
-                                team: "Total",
-                                member: "Total",
-                                column:'Assigned',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 30,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "Total",
-                                member: "Total",
-                                column:'Assigned',
-                                subColumn: "P2",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "Total",
-                                member: "Total",
-                                column:'Assigned',
-                                subColumn: "P3",
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
-                            },
-                            {
-                                team: "Total",
-                                member: "Total",
-                                column:'Assigned',
-                                subColumn: "Total",
+                                selectedFieldValuesFilter: 'Assigned',
                                 cell : [{
                                     value: 10,
                                     name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "Total",
-                                member: "Total",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
-                            },
-                            {
-                                team: "Total",
-                                member: "Total",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
-                            },
-                            {
-                                team: "Total",
-                                member: "Mohamed",
-                                column:'In Progress',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
-                            },
-                            {
-                                team: "Total",
-                                member: "Mohamed",
-                                column:'Total',
-                                subColumn: "P1",
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
                                 }
                                 ]
                             }
@@ -958,12 +745,12 @@ var TableView = React.createClass({
                 attribute = " flex-item Aligner-items Total border-total";
             }*/
             return (
-                <div className={attribute} onMouseOver={this.handleMouseOver.bind(this, cells.cell)}  onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member)} >
+                <div className={attribute} onMouseOver={this.handleMouseOver.bind(this, cells.cell)}  onClick={this.handleClick.bind(this, cells.selectedFieldValuesFilter)} >
                     <div className="flex-container">
                     {cells.cell.map(function(item){
                         var className = "flex-items "+ item.name;
                         return(
-                            <div className={className} onClick={this.handleClick.bind(this, cells.column + " "+ cells.subColumn + " "+ cells.member + " " + item.value + " " + item.name)}>{item.value}</div>);
+                            <div className={className} onClick={this.handleClick.bind(this, cells.selectedFieldValuesFilter)}>{item.value}</div>);
                     },this)}
                     </div>
                 </div>
