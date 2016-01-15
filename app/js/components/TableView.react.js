@@ -13,671 +13,2662 @@ var TableView = React.createClass({
             "tableStruct": {
                 "columns": [
                     {
-                    "value": "Assigned",
-                    "subColumnsTotal": 1,
-                    "subColumns": [{
-                        "value": "P1"
-                    }, {
-                        "value": "P2"
-                    }, {
-                        "value": "P3"
-                    }]
-                }, {
-                    "value": "In Progress",
-                    "subColumnsTotal": 0,
-                    "subColumns": [{
-                        "value": "P1"
-                    }, {
-                        "value": "P2"
-                    }, {
-                        "value": "P3"
-                    }]
-                }, {
-                    "value": "Total",
-                    "subColumnsTotal": 1,
-                    "subColumns": []
-                }],
-                "rows": [{
-                    "value": "VVM Team",
-                    "subRowsTotal": 1,
-                    "subRows": [
-                        {
-                            "value": "Mohamed Amine"
-                        }, {
-                            "value": "Nathan"
-                        }, {
-                            "value": "Lyes"
-                        }
-                    ]
-                },{
-                    "value": "VVM Team",
-                    "subRowsTotal": 1,
-                    "subRows": [
-                        {
-                            "value": "Mohamed Amine"
-                        }, {
-                            "value": "Nathan"
-                        }, {
-                            "value": "Lyes"
-                        }
-                    ]
-                }, {
-                    "value": "Total",
-                    "subRowsTotal": 1,
-                    "subRows": []
-                }]
-            },
-            "data" : {
+                        "value": "01 - Da Decidere",
+                        "isSubColumnsTotalRequested": true,
+                        "subColumns": [
+                            {
+                                "value": "1"
+                            },
+                            {
+                                "value": "2"
+                            },
+                            {
+                                "value": "3"
+                            },
+                            {
+                                "value": "4"
+                            },
+                            {
+                                "value": "Total"
+                            }
+                        ]
+                    },
+                    {
+                        "value": "02 - Sospeso",
+                        "isSubColumnsTotalRequested": true,
+                        "subColumns": [
+                            {
+                                "value": "1"
+                            },
+                            {
+                                "value": "2"
+                            },
+                            {
+                                "value": "3"
+                            },
+                            {
+                                "value": "4"
+                            },
+                            {
+                                "value": "5"
+                            },
+                            {
+                                "value": "Total"
+                            }
+                        ]
+                    },
+                    {
+                        "value": "03 - Da Stimare",
+                        "isSubColumnsTotalRequested": true,
+                        "subColumns": [
+                            {
+                                "value": "2"
+                            },
+                            {
+                                "value": "Total"
+                            }
+                        ]
+                    },
+                    {
+                        "value": "Total",
+                        "isSubColumnsTotalRequested": null,
+                        "subColumns": []
+                    }
+                ],
                 "rows": [
                     {
-                        row: [
+                        "value": "tracker48440",
+                        "isSubRowsTotalRequested": true,
+                        "subRows": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "value": "Alessandra Corona"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "value": "Alessandro Angelo Colombini"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "value": "Andrea Alessandri"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "value": "Antonella Spiezio"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "value": "Antonino Emma"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "value": "Davide Lombardi"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "value": "Gianfranco Pennone"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "value": "Ivano Dalmasso"
+                            },
+                            {
+                                "value": "Laura Uccello"
+                            },
+                            {
+                                "value": "Marco Capra"
+                            },
+                            {
+                                "value": "Michele Giacobini"
+                            },
+                            {
+                                "value": "Monica Bestazzoni"
+                            },
+                            {
+                                "value": "No user"
+                            },
+                            {
+                                "value": "Saverio Tassinari"
+                            },
+                            {
+                                "value": "Total"
                             }
                         ]
                     },
                     {
-                        row : [
+                        "value": "Total",
+                        "isSubRowsTotalRequested": null,
+                        "subRows": []
+                    }
+                ],
+                "isColumnsTotalRequested": true,
+                "isRowsTotalRequested": true
+            },
+            "data": {
+                "rows": [
+                    {
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='1'&assignedteam='tracker48440'&assignedperson='Alessandra Corona'"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
                     },
                     {
-                        row: [
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'&assignedteam='tracker48440'&assignedperson='Alessandro Angelo Colombini'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
                     },
                     {
-                        row: [
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='4'&assignedteam='tracker48440'&assignedperson='Andrea Alessandri'"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
-                    },{
-                        row: [
+                    },
+                    {
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='2'&assignedteam='tracker48440'&assignedperson='Antonella Spiezio'"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
-                    },{
-                        row: [
+                    },
+                    {
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='3'&assignedteam='tracker48440'&assignedperson='Antonino Emma'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
-                    },{
-                        row: [
+                    },
+                    {
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='2'&assignedteam='tracker48440'&assignedperson='Davide Lombardi'"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='3'&assignedteam='tracker48440'&assignedperson='Davide Lombardi'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
-                    },{
-                        row: [
+                    },
+                    {
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='2'&assignedteam='tracker48440'&assignedperson='Gianfranco Pennone'"
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
-                    },{
-                        row: [
+                    },
+                    {
+                        "row": [
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell: [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Pending"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "Withing SLA range"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "About to breach SLA"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
                             },
                             {
-                                selectedFieldValuesFilter: 'Assigned',
-                                cell : [{
-                                    value: 10,
-                                    name: "SLA breached"
-                                }
-                                ]
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'&assignedteam='tracker48440'&assignedperson='Ivano Dalmasso'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='3'&assignedteam='tracker48440'&assignedperson='Laura Uccello'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'&assignedteam='tracker48440'&assignedperson='Laura Uccello'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='3'&assignedteam='tracker48440'&assignedperson='Marco Capra'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'&assignedteam='tracker48440'&assignedperson='Michele Giacobini'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'&assignedteam='tracker48440'&assignedperson='Monica Bestazzoni'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='1'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 7,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 7,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='2'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 125,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 125,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='3'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 7,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 7,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='4'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 143,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 143,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 3,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 3,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='1'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 8,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 8,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='2'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 22,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 22,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='3'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 13,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 13,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='5'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 48,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 48,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 6,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 6,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='03 - Da Stimare'&priority='2'&assignedteam='tracker48440'&assignedperson='No user'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 6,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 6,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 197,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 197,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'&assignedteam='tracker48440'&assignedperson='Saverio Tassinari'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": false,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 0,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 0,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 1,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 1,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='01 - Da Decidere'&priority='1'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 7,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 7,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='01 - Da Decidere'&priority='2'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 125,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 125,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='01 - Da Decidere'&priority='3'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 8,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 8,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='01 - Da Decidere'&priority='4'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 144,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 144,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='01 - Da Decidere'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='02 - Sospeso'&priority='1'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 12,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 12,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='02 - Sospeso'&priority='2'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 30,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 30,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='02 - Sospeso'&priority='3'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 20,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 20,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='02 - Sospeso'&priority='4'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='02 - Sospeso'&priority='5'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 68,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 68,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='02 - Sospeso'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 6,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 6,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='03 - Da Stimare'&priority='2'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 6,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 6,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'&status='03 - Da Stimare'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 218,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 218,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "assignedteam='tracker48440'"
+                            }
+                        ]
+                    },
+                    {
+                        "row": [
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='1'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 7,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 7,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='2'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 125,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 125,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='3'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 8,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 8,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'&priority='4'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 144,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 144,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='01 - Da Decidere'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 4,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 4,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='1'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 12,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 12,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='2'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 30,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 30,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='3'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 20,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 20,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='4'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 2,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 2,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'&priority='5'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 68,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 68,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='02 - Sospeso'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 6,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 6,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='03 - Da Stimare'&priority='2'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 6,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 6,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": "status='03 - Da Stimare'"
+                            },
+                            {
+                                "cell": [
+                                    {
+                                        "value": 218,
+                                        "name": "SLA_TOTAL"
+                                    }
+                                ],
+                                "cellTotal": 218,
+                                "isTotalCell": true,
+                                "selectedFieldValuesFilter": ""
                             }
                         ]
                     }
                 ]
-            },
+            }
+            ,
             "legend" : [
 
             ]
@@ -692,7 +2683,7 @@ var TableView = React.createClass({
             );
         },this);
 
-        if(column.subColumnsTotal){
+        if(column.isSubColumnsTotalRequested){
             total = <div className="flex-item Aligner border-item" onClick={this.handleClick.bind(this,column.value +" Total")}>Total</div>
         }
 
@@ -786,8 +2777,12 @@ var TableView = React.createClass({
         var header = this.state.tableStruct.columns.map(function(column){
             var row;
             if(column.subColumns.length >0) {
-                numberOfRows += column.subColumns.length + column.subColumnsTotal;
-                row = <div className="flex-item " style={{flex: column.subColumns.length + column.subColumnsTotal}}>
+                var subColumnsTotal = 0;
+                if(column.isSubColumnsTotalRequested) {
+                    subColumnsTotal =1;
+                }
+                numberOfRows += column.subColumns.length + subColumnsTotal;
+                row = <div className="flex-item " style={{flex: column.subColumns.length + subColumnsTotal}}>
                     <div className="flex-container">
                         <div className="flex-item sizeSubCol Aligner column bottomBorder" onClick={this.handleClick.bind(this, column.value)}>{column.value}</div>
                     </div>
