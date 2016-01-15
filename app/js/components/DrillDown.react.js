@@ -27,7 +27,7 @@ var DrillDown = React.createClass({
                     ],
                 "bodyRows": [
                     {
-                        "cell": [
+                        "cells": [
                             {
                                 "value": "mohamed"
                             },{
@@ -42,7 +42,7 @@ var DrillDown = React.createClass({
                                 "value": "36"
                             }
                         ]
-                    },{ "cell": [
+                    },{ "cells": [
                             {
                                 "value": "mohamed"
                             },{
@@ -57,7 +57,7 @@ var DrillDown = React.createClass({
                                 "value": "36"
                             }
                         ]
-                    },{ "cell": [
+                    },{ "cells": [
                             {
                                 "value": "mohamed"
                             },{
@@ -72,7 +72,7 @@ var DrillDown = React.createClass({
                                 "value": "36"
                             }
                         ]
-                    },{ "cell": [
+                    },{ "cells": [
                             {
                                 "value": "mohamed"
                             },{
@@ -114,7 +114,7 @@ var DrillDown = React.createClass({
                 attribute = "flex-container sizeItem flex-row"
             }
             return (
-                <div className={attribute}> {this.parseCell(item.cell)}</div>
+                <div className={attribute}> {this.parseCell(item.cells)}</div>
             );
         }, this);
 

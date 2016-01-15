@@ -27,9 +27,6 @@ var TableView = React.createClass({
                             },
                             {
                                 "value": "4"
-                            },
-                            {
-                                "value": "Total"
                             }
                         ]
                     },
@@ -51,9 +48,6 @@ var TableView = React.createClass({
                             },
                             {
                                 "value": "5"
-                            },
-                            {
-                                "value": "Total"
                             }
                         ]
                     },
@@ -63,9 +57,6 @@ var TableView = React.createClass({
                         "subColumns": [
                             {
                                 "value": "2"
-                            },
-                            {
-                                "value": "Total"
                             }
                         ]
                     },
