@@ -100,16 +100,19 @@
     border-right: 1px solid #ececec;
     border-bottom: 2px solid #ececec;
  }
-.Withing {
+.SLA_NOT_BREACHED {
     background: #8cc151;
 }
-.About {
+.SLA_ABOUT_TO_BE_BREACHED
+{
     background: #ffb300;
 }
-.breached {
+.SLA_BREACHED
+{
     background: #e53935;
 }
-.Pending {
+.SLA_TOTAL
+{
     background: #546e7a;
 }
 .no {
