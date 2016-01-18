@@ -59,11 +59,6 @@ var TableView = React.createClass({
                                 "value": "2"
                             }
                         ]
-                    },
-                    {
-                        "value": "Total",
-                        "isSubColumnsTotalRequested": null,
-                        "subColumns": []
                     }
                 ],
                 "rows": [
@@ -2779,14 +2774,17 @@ var TableView = React.createClass({
                     </div>
                     {this.showSubColumns(column)}
                 </div>
-            } else {
-                numberOfRows +=1;
-                row = <div className="flex-item border-header-total Aligner TotalHeader" style={{flex: 1}} onClick={this.handleClick.bind(this, column.value)}>
-                    Total
-                </div>
             }
             return {row}
         }, this);
+
+        var headerTotal;
+        if(this.state.tableStruct.isColumnsTotalRequested){
+            numberOfRows +=1;
+            headerTotal = <div className="flex-item border-header-total Aligner TotalHeader" style={{flex: 1}} onClick={this.handleClick.bind(this, "headerTotal")}>
+                Total
+            </div>
+        }
 
         var teamMemeber = [];
         var team = this.state.tableStruct.rows.map(function(rows){
@@ -2801,15 +2799,18 @@ var TableView = React.createClass({
                         {this.showTeam(rows)}
                     </div>
                 </div>
-            } else {
-                row = <div className="flex-item ">
-                    <div className="flex-container bottomBorder" onClick={this.handleClick.bind(this, "Total")} >
-                        <div className="flex-item sizeItem Aligner border-item Total">Total</div>
-                    </div>
-                </div>
             }
             return {row}
         }, this);
+        var teamTotal;
+        if(this.state.tableStruct.isRowsTotalRequested){
+            teamTotal = <div className="flex-item ss">
+                <div className="flex-container bottomBorder" onClick={this.handleClick.bind(this, "Total")} >
+                    <div className="flex-item sizeItem Aligner border-item Total">Total</div>
+                </div>
+            </div>
+        }
+
         var i =0;
         var data = this.state.data.rows.map(function(rows, index){
             var attribute = "flex-container sizeItem ";
@@ -2834,6 +2835,7 @@ var TableView = React.createClass({
         }, this);
 
         return(
+
             <div className="content">
                 <div className="legend">
                 {legend}
@@ -2847,10 +2849,12 @@ var TableView = React.createClass({
                             </div>
                         </div>
                         {header}
+                        {headerTotal}
                     </div>
                     <div className="flex-container">
                         <div className="flex-item"  style={{flex: 1.5}}>
                         {team}
+                        {teamTotal}
                         </div>
                         <div className="flex-item" style={{flex: numberOfRows}}>
                         {data}
