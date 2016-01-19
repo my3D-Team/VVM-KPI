@@ -91,7 +91,7 @@ var backlogTrend = React.createClass({
         return {
             data: [
             {
-                "date": "01-02",
+                "dateLabel": "01-02",
                 "opened": 2,
                 "closed": 13,
                 "splits": [
@@ -114,7 +114,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "03-02",
+                "dateLabel": "03-02",
                 "opened": 12,
                 "closed": 1,
                 "splits": [
@@ -137,7 +137,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "04-02",
+                "dateLabel": "04-02",
                 "opened": 7,
                 "closed": 5,
                 "splits": [
@@ -160,7 +160,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "05-02",
+                "dateLabel": "05-02",
                 "opened": 2,
                 "closed": 5,
                 "splits": [
@@ -183,7 +183,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "06-02",
+                "dateLabel": "06-02",
                 "opened": 20,
                 "closed": 14,
                 "splits": [
@@ -206,7 +206,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "07-02",
+                "dateLabel": "07-02",
                 "opened": 25,
                 "closed": 30,
                 "splits": [
@@ -229,7 +229,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "08-02",
+                "dateLabel": "08-02",
                 "opened": 20,
                 "closed": 13,
                 "splits": [
@@ -252,7 +252,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "09-02",
+                "dateLabel": "09-02",
                 "opened": 20,
                 "closed": 15,
                 "splits": [
@@ -275,7 +275,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "10-02",
+                "dateLabel": "10-02",
                 "opened": 7,
                 "closed": 5,
                 "splits": [
@@ -298,7 +298,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                "date": "11-02",
+                "dateLabel": "11-02",
                 "opened": 12,
                 "closed": 5,
                 "splits": [
@@ -321,7 +321,7 @@ var backlogTrend = React.createClass({
                 ]
             },
                 {
-                    "date": "12-02",
+                    "dateLabel": "12-02",
                     "opened": 20,
                     "closed": 14,
                     "splits": [
@@ -344,7 +344,7 @@ var backlogTrend = React.createClass({
                     ]
                 },
                 {
-                    "date": "13-02",
+                    "dateLabel": "13-02",
                     "opened": 5,
                     "closed": 3,
                     "splits": [
@@ -367,7 +367,7 @@ var backlogTrend = React.createClass({
                     ]
                 },
                 {
-                    "date": "14-02",
+                    "dateLabel": "14-02",
                     "opened": 20,
                     "closed": 14,
                     "splits": [
@@ -396,7 +396,7 @@ var backlogTrend = React.createClass({
     componentWillMount: function () {
        var data = this.state.data.map(function(item) {
             var data = {
-                "date" : item.date,
+                "date" : item.dateLabel,
                 "open": item.opened,
                 "close": item.closed
             }

@@ -2656,7 +2656,8 @@ var TableView = React.createClass({
             }
             ,
             "legend" : [
-
+                {"title": "SLA_TOTAL", "value":0},
+                {"title": "SLA_TOTAL", "value":10}
             ]
         }
     },
@@ -2804,7 +2805,7 @@ var TableView = React.createClass({
         }, this);
         var teamTotal;
         if(this.state.tableStruct.isRowsTotalRequested){
-            teamTotal = <div className="flex-item ss">
+            teamTotal = <div className="flex-item">
                 <div className="flex-container bottomBorder" onClick={this.handleClick.bind(this, "Total")} >
                     <div className="flex-item sizeItem Aligner border-item Total">Total</div>
                 </div>
